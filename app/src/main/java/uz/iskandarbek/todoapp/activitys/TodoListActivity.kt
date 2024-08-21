@@ -11,6 +11,7 @@ import uz.iskandarbek.todoapp.models.MyTodo
 import uz.iskandarbek.todoapp.utils.Mys
 
 class TodoListActivity : AppCompatActivity() {
+    //    Development by : Iskandar Nosirov
     private val binding by lazy { ActivityTodoListBinding.inflate(layoutInflater) }
     private lateinit var expandAdapter: ExpandAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -71,4 +72,4 @@ class TodoListActivity : AppCompatActivity() {
             true
         }
     }
-}
+}//    Development by : Iskandar Nosirov

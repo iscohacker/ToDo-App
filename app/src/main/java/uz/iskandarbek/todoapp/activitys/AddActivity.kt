@@ -12,6 +12,7 @@ import uz.iskandarbek.todoapp.models.MyTodo
 import uz.iskandarbek.todoapp.utils.Mys
 
 class AddActivity : AppCompatActivity() {
+//    Development by : Iskandar Nosirov
     private val binding by lazy { ActivityAddBinding.inflate(layoutInflater) }
     var list: ArrayList<MyInfo> = ArrayList()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -50,4 +51,4 @@ class AddActivity : AppCompatActivity() {
             }
         }
     }
-}
+}//    Development by : Iskandar Nosirov

@@ -7,6 +7,7 @@ import uz.iskandarbek.todoapp.models.MyTodo
 import uz.iskandarbek.todoapp.utils.Mys
 
 class ShowActivity : AppCompatActivity() {
+    //    Development by : Iskandar Nosirov
     private val binding by lazy { ActivityShowBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -210,4 +211,4 @@ class ShowActivity : AppCompatActivity() {
             }
         }
     }
-}
+}//    Development by : Iskandar Nosirov
