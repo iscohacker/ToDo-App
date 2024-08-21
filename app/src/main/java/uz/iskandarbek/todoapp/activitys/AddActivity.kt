@@ -16,7 +16,6 @@ class AddActivity : AppCompatActivity() {
     var list: ArrayList<MyInfo> = ArrayList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(binding.root)
 
         list = ArrayList()
@@ -36,9 +35,10 @@ class AddActivity : AppCompatActivity() {
                         MyTodo(
                             todoName.text.toString(),
                             todoDescription.text.toString(),
+                            spinner.selectedItem as MyInfo,
+                            "open",
                             todoDate.text.toString(),
-                            todoDeadline.text.toString(),
-                            spinner.selectedItem as MyInfo
+                            todoDeadline.text.toString()
                         )
                     )
                     Mys.todoList = todoList

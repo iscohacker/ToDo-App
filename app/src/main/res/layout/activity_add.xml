@@ -5,8 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3B007F"
+    android:background="#A3E4D7"
     tools:context=".activitys.AddActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F7DC6F"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="15dp"
+        android:text="Addd Todo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/liner"
@@ -24,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#E5D8B6"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +51,7 @@
                 android:background="@android:color/transparent"
                 android:hint="@string/todo_name"
                 android:padding="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textColorHint="#B5B5B5"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
@@ -47,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#E5D8B6"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +74,7 @@
                 android:background="@android:color/transparent"
                 android:hint="To do description"
                 android:padding="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textColorHint="#B5B5B5"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
@@ -70,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#E5D8B6"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -81,14 +94,14 @@
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="#FF4500" />
+                android:background="#E5D8B6" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="20dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#E5D8B6"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -103,7 +116,7 @@
                 android:hint="To do create data"
                 android:inputType="date"
                 android:padding="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textColorHint="#B5B5B5"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
@@ -111,7 +124,7 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#E5D8B6"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -125,7 +138,7 @@
                 android:background="@android:color/transparent"
                 android:hint="To do dedline"
                 android:padding="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textColorHint="#B5B5B5"
                 android:textSize="18sp" />
         </androidx.cardview.widget.CardView>
@@ -136,14 +149,12 @@
             android:layout_height="50dp"
             android:layout_marginStart="170dp"
             android:layout_marginTop="100dp"
-            android:backgroundTint="#FF4500"
+            android:backgroundTint="#F7DC6F"
             android:text="Save"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
-            app:cornerRadius="10dp"
-            app:strokeColor="@color/white"
-            app:strokeWidth="2dp" />
+            app:cornerRadius="10dp" />
 
     </LinearLayout>
 
