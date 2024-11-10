@@ -16,15 +16,13 @@ class MainActivity : AppCompatActivity() {
     private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(binding.root)
-
 
         binding.apply {
             todolist.setOnClickListener {
                 startActivity(Intent(this@MainActivity, TodoListActivity::class.java))
             }
-            addtodo.setOnClickListener {
+            addTodo.setOnClickListener {
                 startActivity(Intent(this@MainActivity, AddActivity::class.java))
             }
         }

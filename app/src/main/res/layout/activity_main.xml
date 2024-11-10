@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?><!--Mehrinbon va Rahimli Alloh nomi bilan boshlayman-->
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#A3E4D7"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/todolist"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_marginTop="268dp"
+        android:layout_marginBottom="10dp"
         android:elevation="30dp"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:cardElevation="30dp"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/addtodo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:cornerRadius="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -38,25 +35,20 @@
             android:textColor="#8C6900"
             android:textSize="20sp"
             android:textStyle="bold" />
-
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/addtodo"
+        android:id="@+id/addTodo"
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="336dp"
+        android:layout_marginTop="10dp"
         android:elevation="30dp"
         android:text="@string/add_todo"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:cardElevation="30dp"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent">
+        app:cornerRadius="10dp">
 
         <ImageView
             android:layout_width="match_parent"
@@ -72,4 +64,4 @@
             android:textSize="20sp"
             android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
